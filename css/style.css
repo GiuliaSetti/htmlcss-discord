@@ -199,11 +199,13 @@ main section{
 
 
 #graywave{
-    filter: opacity(0.05);
+    filter: opacity(0.04);
+    margin: -4px;
  }
  
  #whitewave{
      filter: invert(100%);
+     margin: -4px;
  }
  
 
@@ -242,8 +244,8 @@ main section{
     padding: 60px 40px;
 }
 
-.section-text strong{ 
-    font-size: 30px ;  
+.section-text h2{ 
+    font-size: 30px;  
 }
 
 .section-text p{
