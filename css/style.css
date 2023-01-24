@@ -185,6 +185,7 @@ button:hover{
 
 /* main */
 
+
 main section{
     padding-top: 50px;
 }
@@ -195,6 +196,16 @@ main section{
     justify-content: space-between;
     gap: 20px;
 }
+
+
+#graywave{
+    filter: opacity(0.05);
+ }
+ 
+ #whitewave{
+     filter: invert(100%);
+ }
+ 
 
 .section{
     width: 600px;
@@ -347,12 +358,18 @@ footer{
     padding-bottom: 10px;
 }
 
+.info img{
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
 
 .info select{
     margin-left: 10px;
     padding: 5px;
     background-color: transparent;
     color: white;
+    border: transparent;
 }
 
 
