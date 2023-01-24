@@ -90,7 +90,24 @@ li > a{
 
 #signin{
     width: 100px;
-    background-color:darkcyan;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signin button{
+    padding: 10px;
+    border: transparent;
+
+    border-radius: 20px;
+}
+
+#signin-button:hover{
+    cursor: pointer;
+
+    background-color: lightgray;
+    color: gray;
 }
 
 /* header - titoli */
