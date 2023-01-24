@@ -5,7 +5,7 @@
 }
 
 .debug *{
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
 
     font-family: 'Roboto', sans-serif;
 }
@@ -175,7 +175,7 @@ button:hover{
     color: white;
 }
 
-#btntwo:hover, #btnthree:hover{
+#btntwo:hover, #btnthree:hover, #signup:hover{
     cursor: pointer;
 
     background-color: lightgray;
@@ -315,6 +315,7 @@ main section{
 
 footer{
     background-color: #23272a;
+    color: #7289da;
 }
 
 .footer-inner{
@@ -336,14 +337,30 @@ footer{
 #footer-left .info{
     width: 100%;
     height: 200px;
+
+    padding: 10px;
 }
 
-#info{
+.info h4{
+    font-size: 30px;
+
+    padding-bottom: 10px;
+}
+
+
+.info select{
+    margin-left: 10px;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+
+.info{
     width: 250px;
     height: 380px;
-
-    background-color: darkseagreen;
 }
+
 #footer-right{
     flex-grow: 1;
 
@@ -358,15 +375,20 @@ footer{
     flex-grow: 1;
 }
 
-.footer-lists ul{
+.footer-lists ul, strong{
     list-style-type: none;
-    background-color: lightseagreen;
+
+    padding: 10px;
+    
+}
+
+.footer-lists li{
+    line-height: 30px;
 }
 
 /* footer navbar */
 
 .bottombar{
-    background-color: aqua;
     height: 100px;
     display: flex;
     flex-direction: row;
@@ -379,14 +401,20 @@ footer{
 #footer-logo{
     width: 150px;
     height: 70px;
-
-    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#footer-btn{
+#signup{
     width: 100px;
-    height: 70px;
+    height: 40px;
 
-    background-color: cadetblue;
+    border: transparent;
+    background-color: #7289da;
+
+    color:white;
+
+    border-radius: 30px;
 }
 
