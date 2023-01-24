@@ -6,6 +6,8 @@
 
 .debug *{
     border: 1px solid purple;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -18,19 +20,19 @@
 /* navbar */
 
 header{    
-    background-color:cornflowerblue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 
 /* nav con 3 div */
 .navbar{
+
     height: 70px;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    background-color: rgb(98, 134, 199);
 
 }
 
@@ -49,23 +51,40 @@ header{
     flex-direction: row;
     align-items: center;
 
-    /* row wrap */
     gap: 30px;
 }
 
 /* logo */
+
+
 #logo{  
     width: 150px;
-    background-color:darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 #link li{  
     height: 30px;
     width: 60px;
-    background-color:darkcyan;
+
+    font-size: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+#link li:nth-child(even){
+    width: 100px;
+}
+
+li > a{
+    text-decoration: none;
+    color: white;
+    
+}
 
 /* bottone */
 
