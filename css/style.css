@@ -103,7 +103,7 @@ li > a{
     border-radius: 20px;
 }
 
-#signin-button:hover{
+button:hover{
     cursor: pointer;
 
     background-color: lightgray;
@@ -131,7 +131,7 @@ li > a{
     gap: 1em;
 
     width: 100%;
-    max-width: 600px;
+    max-width: 700px;
     text-align: center;
 
 }
@@ -140,33 +140,48 @@ li > a{
 /* titolo */
 #header-inner h1{
     margin-bottom: 0.4em;
+
+    color: white;
 }
 
 /* paragrafo */
 
-#paragraph{
-    width:740px;
-    height: 100px;
-    background-color: rgb(22, 57, 75);
+#header-inner p{
+    color: white;
 }
 
 
 /* bottoni */
+
 #header-btns{
-    background-color: dodgerblue;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    gap: 10px;
-    
-    
+    align-items: center;
 }
 
 .header-btns button{
-    width: 200px;
     height: 2.5em;
-    background-color: aquamarine;
+    border: transparent;
+    border-radius: 20px;
 }
+
+#btnone{
+    width: 150px;
+}
+#btntwo{
+    width: 200px;
+    background-color: #23272a;
+    color: white;
+}
+
+#btntwo:hover{
+    cursor: pointer;
+
+    background-color: lightgray;
+    color: gray;
+}
+
 
 /* main */
 
